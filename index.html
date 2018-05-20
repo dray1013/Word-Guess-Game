@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container py-5">
+         
+        <div class="jumbotron">
+            <h1 class="text-center">Hangman</h1>
+            <button type="button" class="btn btn-default " style="float: right" id="new-game-button">New Game</button>
+        </div>
+        
+        <div class="row" style="background:grey; border-color: black; border-width:2px">
+            <div class="col-12 col-md-6 py-5">
+                <h2>Fill these in!
+                    <br/>
+                    <span id="place-holders">___ ___ ___</span>
+                </h2>
+            </div>
+
+            <div class="col-12 col-md-6 py-5">
+                    <h2>Incorrect letters guessed
+                        <br/>
+                        <span id="guessed-letters"></span>
+                    </h2>
+            </div>
+        </div>
+        
+        <div class="row r3">
+            <div class="col-12 text-center col-md-4 py-5">
+              <h3>
+                Guesses left: <span id="guesses-left">8</span>
+              </h3>
+            </div>
+
+            <div class="col-12 text-center col-md-4 py-5">
+              <h3>
+                Wins: <span id="wins">0</span>
+              </h3>
+            </div>
+
+            <div class="col-12 text-center col-md-4 py-5">
+              <h3>
+                Losses: <span id="losses">0</span>
+              </h3>
+            </div>
+        </div>
+    
+</div>
+
+
+</body>
+
+</html>
