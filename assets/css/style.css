@@ -1,10 +1,16 @@
 
 body{
+      background-image: url("../images/space.img");
+     
+}
+
+.jumbotron{
       background-color: black;
-      background-image: url("../assets/images/");
+      color:white;
 }
 
 .r3{
       color: white;
+      background-color: black;
 }
 
