@@ -1,16 +1,37 @@
 
 body{
-      background-image: url("../images/space.img");
-     
+      background-color: black;
 }
 
 .jumbotron{
+      font-weight: bold;
+      font-size: 40px;
       background-color: black;
       color:white;
+      background-image: url("../images/jumbo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-shadow: 3px 3px black;
+      
+      
+}
+
+
+
+
+.r2{
+      color:white;
+      background-color:black;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgba(96, 176, 250, 0.993);
 }
 
 .r3{
       color: white;
       background-color: black;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgba(96, 176, 250, 0.993);
 }
 
